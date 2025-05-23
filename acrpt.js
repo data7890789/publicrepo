@@ -82,8 +82,8 @@ const xabe0 = () => {
         const dec = new TextDecoder();
         const decryptedString = dec.decode(decryptedData);
        
-        // console.log(decodeURIComponent(atob(decryptedString)));
-            document.write(decodeURIComponent(atob(decryptedString)));
+      
+            document.write(atob(decryptedString));
        
     
     };
